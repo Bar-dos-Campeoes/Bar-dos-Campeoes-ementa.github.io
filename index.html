@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styleComida.css">
+	<link rel="stylesheet" href="css/logo.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/styleComidaHorizontal.css">
+
+	<!-- Favicon padrão -->
+	<link rel="icon" href="/Fotos/logo_2.png" type="image/png">
+	<link rel="icon" href="/Fotos/logo_2.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="/Fotos/logo_2.png">
+	
+	<link rel="canonical" href="https://bar-dos-campeoes.github.io/">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Bar dos Campeões – Menu & Contactos">
+	<meta name="twitter:description" content="Consulte o menu, horários, contactos e localizações do Bar dos Campeões em Apúlia.">
+	<meta name="twitter:image" content="https://bar-dos-campeoes.github.io/Fotos/logo_2.png">
+
+
+
+	<title>Bar dos Campeões – Menu & Contactos</title>
+	<meta name="description" content="Bem-vindo ao Bar dos Campeões! Consulte o nosso menu, horários, contactos e localizações.">
+	<meta name="application-name" content="Bar dos Campeões">
+	<meta property="og:site_name" content="Bar dos Campeões">
+	<meta property="og:title" content="Bar dos Campeões – Menu & Contactos">
+	<meta property="og:description" content="Consulte o menu, horários, contactos e localizações do Bar dos Campeões em Apúlia.">
+	<meta property="og:url" content="https://bar-dos-campeoes.github.io/">
+	<meta property="og:image" content="https://bar-dos-campeoes.github.io/Fotos/logo_2.png">
+
+
+	<!-- Dados estruturados -->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "Restaurant",
+		  "@id": "https://bar-dos-campeoes.github.io/#restaurant",
+		  "name": "Bar dos Campeões",
+		  "url": "https://bar-dos-campeoes.github.io/",
+		  "image": "https://bar-dos-campeoes.github.io/Fotos/logo_2.png",
+		  "logo": "https://bar-dos-campeoes.github.io/Fotos/logo_2.png",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "R. do Cónego 52",
+			"addressLocality": "Apúlia",
+			"postalCode": "4740-033",
+			"addressCountry": "PT"
+		  },
+		  "telephone": "+351967364915",
+		  "openingHours": [
+			"Mo-Su 08:00-02:00",
+			"We 08:00-18:00"
+		  ],
+		  "servesCuisine": ["Francesinha", "Comida Portuguesa", "Hambúrgueres", "Tapas", "Sobremesas", "Bebidas"],
+		  "sameAs": [
+			"https://www.facebook.com/100063690604861/videos/",
+			"https://www.instagram.com/bar.dos.campeoes/"
+		  ]
+		}
+		</script>
+		
+</head>
+<body>
+	<!--
+	<div class="linguas">
+		<div class="linguas-btn">
+			🇵🇹
+		</div>
+	
+		<div class="linguas-opcoes">
+			<a href="index-en.html">🇬🇧</a>
+			<a href="index-es.html">🇪🇸</a>
+			<a href="index-de.html">🇩🇪</a>
+		</div>
+	</div>
+	-->
+
+	<div class="caixaPrincipal">
+		<div class="caixaEsquerda">
+			<img src="Fotos/logo_2.png" alt="" />
+
+		</div>
+	
+		<div class="caixaDireita">
+
+			<div class="conteudo">
+				<p>
+					<strong style="color: #A1954E;">Horário</strong><br>
+					Segunda a Domingo — 08h às 02h <br>
+					Quartas — 08h às 18h
+				</p>
+	
+				<p>
+					<strong style="color: #A1954E;">Vem nos visitar: </strong><br>
+				<a id="endereco"
+					href="https://www.google.com/maps?q=R. do Cónego 52, 4740-033 Apúlia" 
+					target="_blank" 
+					class="morada">
+					R. do Cónego 52, 4740-033 Apúlia
+				</a>
+				 
+				 <button class="copy-btn" onclick="copiarTexto()">
+					 ⧉
+				 </button>
+				 
+				</p>
+				
+	
+				<p>
+					<a style="color: #A1954E;">Faz a tua reserva !</a> <br>
+					<a href="tel:253 981 211" class="telefone">253 981 211</a> <br>
+					<a href="tel:912 784 843" class="telefone">912 784 843</a>
+				</p>
+			</div>
+
+		</div>
+	</div>
+	
+
+	<div>
+		<p class="entradas">Prato do dia</p>
+		<div class="container">
+			<div class="card-left">
+				<div class="card-image">
+				<img src="Fotos/Comida/PratoDia/prato_Dia.jpg"
+				onload="console.log('IMG OK', this.naturalWidth, this.naturalHeight)"
+				onerror="console.log('IMG ERRO', this.src)"
+				alt=""/>
+				</div>
+				<div class="card-text">
+					<p>Lasanha no forno com salada</p>
+				</div>
+			</div>
+		</div>
+
+		<p class="entradas" id="entradas">Brunch</p>
+		<div class="container">
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://www.giallozafferano.com.br/images/17-1760/ovos-mexidos_1200x800.jpg" alt="" />
+				</div>
+				<div class="card-text">
+					<p> Ovos mexidos</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+					<img src="Fotos/Comida/Brunch/taca.jpeg" alt="" />
+				</div>
+				<div class="card-text">
+					<p>Taça de Iogurte C/Fruta e Grânola</p>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="container_horizonte">
+			<div class="card-left_horizonte">
+				<div class="card-image_horizonte">
+				<img src="Fotos/Comida/Brunch/brunch.jpeg" alt="" />
+				</div>
+				<div class="card-text_horizonte">
+					<ul style="
+						list-style: none;
+						padding: 0;
+						margin: 0;
+						font-family: 'Times New Roman', serif;
+						font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+					">
+						<li><strong>Para partilhar:</strong></li>
+						<br>
+						<li>2 Sumos de laranja Natura</li>
+						<li>2 Meias de Leite</li>
+						<li>Taça com Fruta</li>
+						<li>2 Taças de Iogurte e Granola</li>
+						<li>Nutella, Compota e Manteiga</li>
+						<li>4 Panquecas</li>
+						<li>Cesta com Torradas e Croissants</li>
+						<li>Queijo e Fiambre</li>
+						<br>
+						<li>Horário: 08:00h até 11:30h</li>
+				  </ul>
+				  
+				</div>
+			</div>
+		</div>
+
+		<p class="entradas" id="entradas">Bom dia | Boa tarde</p> 
+		<p class="entradas" id="entradas">Tirar a sede:</p>
+		<div class="container">
+			<div class="card-left">
+				<div class="card-image">
+				<img src="Fotos/Comida/affogato.jpg" alt="affogato" />
+				</div>
+				<div class="card-text">
+					<p> Afogato</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+					<img src="https://www.nescafe.com/nz/sites/default/files/2023-09/NESCAFÉ%20Cappuccino.jpg" alt="" />
+				</div>
+				<div class="card-text">
+					<p>Capuccino</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+					<img src="https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/314D11A6-4457-4C70-A1BE-A6C25F597C18/Derivates/B362DC69-6AAA-43E1-AF51-184463E8551B.jpg" alt="" />
+				</div>
+				<div class="card-text">
+					<p>Latte Machiatto</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+					<img src="https://www.sweetfixbaker.com/wp-content/uploads/2024/06/Iced-Mocha-Macchiato-500x375.jpg" alt="" />
+				</div>
+				<div class="card-text">
+					<p>Mokka Machiatto</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+					<img src="https://go.vendus.pt/foto/4aea4be1909e6a98866a8a4476802809.jpg" alt="" />
+				</div>
+				<div class="card-text">
+					<p>Meia de leite</p>
+				</div>
+			</div>
+			
+		</div>
+
+		<p class="entradas" id="entradas">Tirar a fome:</p>
+		<div class="container">
+			<div class="card-left">
+				<div class="card-image">
+					<img src="https://www.lesaffre.pt/wp-content/uploads/2020/04/Xtendlife-hogaza-rustica-small.jpg" alt="" />
+				</div>
+				<div class="card-text">
+					<p>Pão rústico</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+					<img src="https://receitadaboa.com.br/wp-content/uploads/2024/09/pao-de-forma.webp" alt="" />
+				</div>
+				<div class="card-text">
+					<p>Pão de forma <br>
+					</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+					<img src="https://meupaocaseiro.com.br/wp-content/uploads/2019/07/baguete.jpg" alt="" />
+				</div>
+				<div class="card-text">
+					<p>Baguete <br>
+					</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+					<img src="https://petulia.pt/img/IMG_1511.jpg" alt="" />
+				</div>
+				<div class="card-text">
+					<p>Pastelaria variada<br>
+					</p>
+				</div>
+			</div>
+		</div>	
+
+		<p class="entradas" id="entradas">Onde come um portugues, come dois ou tres</p>
+		<div class="container">
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://media-cdn.tripadvisor.com/media/photo-s/15/4a/84/03/tabua-mista.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Tábuas Mistas: <br> <br>
+					Grande <br>
+					Pequena <br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://www.allrecipes.com/thmb/Dw_WFOvCds43ksPxkrE60qxcwSk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-8849-HomemadeChickenNuggets-beauty-4x3-ca915ee936054272af1b506181923c7f.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Nuggets: <br> <br>
+					Queijo <br>
+					Frango <br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://momentosdocesesalgados.com/wp-content/uploads/2021/02/F23462D6-1EB2-43E2-8679-68077DF78DD2.jpeg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Tiras: <br> <br>
+					Lulas Panadas <br>
+					Mozzarela <br>
+					Mini argolas de Queijo <br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://sousvide.orvedbrock.com.br/wp-content/uploads/2024/06/Asa-de-frango-com-molho-picante.png" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Asas de frango <br>
+				</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://s2-receitas.glbimg.com/ngmIusW75u2IXfDhOUHNYxMoS38=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/4/7/JncsrSSBOB0FB8iE4yAA/canape-de-tapioca-com-presunto-parma.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Chill beets<br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTVfpVg_jrKY7yjZWa-y2MPrkXVibeaz9tDw&s" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Camarões Sortidos<br>
+				</p>
+				</div>
+			</div>
+
+		</div>
+
+		<p class="entradas" id="entradas">Branco ou tinto ? Cheio !</p>
+		<div class="container">
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://www.bacanasangria.com/wp-content/uploads/2021/06/miniBottlesTwo-1.png" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Bacana Sangria <br> <br>
+					- Maracujá <br>
+					- Maça e pepino <br>
+					- Frutos Tropicais <br>
+					- Morango <br>
+					- Mojito <br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://asset.skoiy.com/dkms3owls2edqvm/3rgkgd2qorfl.jpg?w=1852&q=80&crop=857,1143,485,0" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Sangria Campeões <br> <br>
+					- Maracujá <br>
+					- Tangerina <br>
+					- Manga <br>
+					Copo ou Caneca <br>
+				</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://a-static.mlcdn.com.br/420x420/caneca-de-chopp-cerveja-vidro-2-unidades-400-ml-reforcada-grande-inglesa-copo-transparente-nibus/wdncomercio/canecadechopp/e28f5b312fa705e637515de03e6af2a5.jpeg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Cerveja: <br> <br>
+					Super Bock<br>
+					Geinejen<br>
+					Calsberg<br>
+					Somersby<br>
+					3 Montes<br>
+					Bohemia<br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwd593a9bc/images/col/559/5591811-frente.jpg?sw=2000&sh=2000" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Espumante: <br> <br>
+					Terras do Demo<br>
+					Terras do Demo Rosé <br>
+					Castelares bruto<br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://cdn.shopify.com/s/files/1/0662/5511/files/Imagem-blog_2623f262-58ee-487d-8c6e-d938e668ff21_600x600.jpg?v=1678475984" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Vinhos: <br> <br>
+					Branco<br>
+					Tinto <br>
+					Rosé<br>
+				</p>
+				</div>
+			</div>
+
+		</div>
+		<!-- -->
+		<!--<p class="principal" id="principal">Snakodependente</p>-->
+		<p class="principal">Snakodependente</p>
+		<div class="container">
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf9gpPzIp967lDVqa4zUKWzYcjL4LqH_BS7EX3LbJy2YTLlJppoGm5kXCfbIvAsW5nn-L95Xg6yoP98DQy6RwSuh5HTlve-qB-ZDDf9lsWLBlQXwpxA69ExaPq-3BPgPwdMQPX/s1600/20200111_201808.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Ovos Rotos 
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwf54bc638/images/col/802/8023060-topshot.png?sw=2000&sh=2000" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Baguetes: <br> <br>
+					Mista <br>
+					Americana <br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://pt.petitchef.com/imgupl/recipe/wraps-de-salmao-o-sanduiche-perfeito-pratico-e-bom-pra-toda-hora--lg-465044p737786.webp" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Wraps: <br> <br>
+					Frango <br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://img.cybercook.com.br/receitas/99/batata-frita-com-queijo-e-bacon-na-air-fryer.jpeg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Batata frita com bacon <br> <br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="Fotos/Comida/Snaks/francesinha.png" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Francesinha especia <br> <br>
+					1/2 Francesinha
+				</p>
+				</div>
+			</div>
+			
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpK5Cji3DHYuPKyqrx-x7yRj7FkgwD_-3y-Q&s" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Cachorro á campeão: <br> <br>
+					C/Molho francesinha <br>
+					Prensado <br>
+					Especial XXl <br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://www.cozinharsemstress.pt/cozinhar/wp-content/uploads/2014/09/B-015_9819.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Hamburguer: <br> <br>
+					C/Molho francesinha <br>
+					Frango <br>
+					Vegan C/Quinoua <br>
+					No prato <br>
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://media.timeout.com/images/103857439/750/562/image.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Prego no prato <br> <br>
+					Prego no pão <br>
+
+				</p>
+				</div>
+			</div>
+
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://www.fula.pt/media/filer_public/c5/ac/c5acf1b1-4bd2-4fa8-a26e-642f3d8b31f2/fula_sopapeixe_0.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Sopa
+				</p>
+				</div>
+			</div>
+			
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://feed.continente.pt/media/xijbq3oa/receita-de-salada-de-verao.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>
+					Saladas: <br> <br>
+					Campeao <br>
+					Delicias <br>
+					Atum <br>
+					Mista <br>
+					Simples <br>
+					Camarão <br>
+				</p>
+				</div>
+			</div>
+		</div>
+
+
+		<p class="sobremesa" id="sobremesa">Sobremesa</p>
+		
+
+		<div class="container">
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://saboreiaavida.nestle.pt/sites/default/files/styles/receita_card_620x560/public/pictures/57e85b04-5ad8-11e4-b7b1-d4ae52be23e7.jpeg?h=14c15e27&itok=aQIZiKIF" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Baba de camelo</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://feed.continente.pt/media/rsxh4b2h/ate-a-ultima-colherada-cnt-fb-carousel.jpg?anchor=center&mode=crop&width=826&height=620&rnd=133415805555130000&format=webp" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Mousse de chocolate</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://cozinhatecnica.com/wp-content/uploads/2022/06/receita-de-petit-gateau-de-chocolate.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Petit Gateau</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://sire-media-24k.techops.disn.io/24k_pt/clip-main/301056.1200x675.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Pudim Abade Priscos</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/Q3SE72ZUZRGKHOJHHW33TBLP4A.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Tiramisù</p>
+				</div>
+			</div>
+		</div>
+
+
+		<p class="bebida" id="bebida">Bebida</p>
+
+
+		<div class="container">
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://media.istockphoto.com/id/1156751459/pt/foto/beautiful-glass-of-gin-on-bar-counter-with-blurred-background-in-shades-of-blue-and-boke.jpg?s=612x612&w=0&k=20&c=sPQ0xhJMTZtJBXHZUi9GXhaLnkG6GgCN4HjcDjgbUvQ=" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Gin</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://basilandbubbly.com/wp-content/uploads/2020/03/caipirinha-5.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Caipirinha</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://so-sour.com/wp-content/uploads/2024/08/Long-Island-Iced-Tea.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Long island ice tea</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://oasis.ca/wp-content/uploads/2023/05/img-whiskey-sour.png" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Whisky Sour</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://www.liquor.com/thmb/G5R_Y6cS-voBV1hYqI2mtoovoTQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/moscow-mule-4000x4000-primary-ig-3a364d63e57b4a9b8cf82ec1dc54eb30.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Moscow Mule</p>
+				</div>
+			</div>
+			<div class="card-left">
+				<div class="card-image">
+				<img src="https://img.freepik.com/fotos-premium/copos-de-refrigerante-sabores-laranja-limao-e-cola_434193-5631.jpg" alt="" />
+				</div>
+				<div class="card-text">
+				<p>Regrigirantes</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/scripts.js"></script>
+
+	<footer class="footer">
+		<div class="footer-container">
+			<div class="footer-section">
+				<h3>Contactos</h3>
+				<p>📍 R. do Cónego 52, 4740-033 Apúlia</p>
+				<p>📞 <a href="tel:+351967364915">+351 912 784 843</a></p>
+				<p>📞 <a href="tel:+351967364915">253 981 211</a></p>
+				<p>✉️ <a href="mailto:info@seudominio.com">info@seudominio.com</a></p>
+			</div>
+			<div class="footer-section">
+				<h3>Horário</h3>
+				<p>Segunda a Domingo: 08h – 02h</p>
+				<p>Quartas: 08h – 18h</p>
+			</div>
+			<div class="footer-section">
+				<h3>Siga-nos</h3>
+				<p>
+					<a href="https://www.facebook.com/100063690604861/videos/" target="_blank">Facebook</a> | 
+					<a href="https://www.instagram.com/bar.dos.campeoes/" target="_blank">Instagram</a>
+				</p>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; 2025 Bar dos Campeoes. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+
+
+</body>
+</html>
