@@ -1,0 +1,65 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  
+  .card{
+    background: rgba(255,255,255,0.65);
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  }
+  
+  .card-top{
+    display: flex;
+    gap: 12px;
+    padding: 14px;
+    align-items: center;
+  }
+  
+  .thumb{
+    width: 72px;
+    height: 72px;
+    border-radius: 14px;
+    overflow: hidden;
+    flex: 0 0 72px;
+    border: 1px solid rgba(0,0,0,0.08);
+    background: #fff;
+  }
+  
+  .thumb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .info{
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  
+  .nome{
+    margin: 0;
+    font-weight: 800;
+    color: #1d2b2a;
+    font-size: 1.05rem;
+  }
+  
+  .desc{
+    margin: 6px 0 0;
+    font-size: 0.95rem;
+    color: #2c3e50;
+    opacity: 0.9;
+  }
+  
+  .preco{
+    margin-left: auto;
+    font-weight: 900;
+    color: var(--dourado);
+    font-size: 1.05rem;
+    white-space: nowrap;
+  }
+  

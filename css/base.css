@@ -1,0 +1,47 @@
+:root{
+    --verde:#226f54;
+    --dourado:#A1954E;
+    --wheat:wheat;
+    --vidro:rgba(255,255,255,0.12);
+    --borda:rgba(255,255,255,0.30);
+    --sombra:rgba(0,0,0,0.25);
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+    background: var(--wheat);
+  }
+  
+  .wrap{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 22px 14px 40px;
+  }
+  
+
+
+  .secao-titulo{
+    margin: 34px 0 16px;
+    text-align: left;
+    font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+    font-weight: 800;
+    color: var(--verde);
+    position: relative;
+  }
+  
+  /* linha decorativa por baixo */
+  .secao-titulo::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    margin: 10px auto 0;
+    border-radius: 3px;
+  }
+  
